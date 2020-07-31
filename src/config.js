@@ -1,7 +1,7 @@
 exports.ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 exports.BOT_ID = process.env.BOT_ID;
 exports.GROUP_ID = process.env.GROUP_ID;
-exports.GIHPY_KEY = 'Giphy API key';
+exports.GIHPY_KEY = process.env.GIPHY_KEY;
 
 exports.DEFAULT_MSGS_TO_ANALYZE = "2000";
 
